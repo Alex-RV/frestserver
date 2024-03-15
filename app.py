@@ -5,6 +5,8 @@ from flask_ngrok import run_with_ngrok
 # flask run --port=5002
 # ngrok http 5002
 # Install ngrok with homwbrew first and config auth token
+# brew install ngrok/ngrok/ngrok
+# ngrok config add-authtoken 
 
 app = Flask(__name__)
 app.config['PRESERVE_CONTEXT_ON_EXCEPTION'] = False
